@@ -5,8 +5,11 @@ To coordinate with the frontend, make sure to include --port=8001 in your starti
 eg. php artisan serve --port=8001
 
 To setup, open terminal and run these commands:
+
 `composer install` and wait for it to finish
 
 `cp .env.example .env`
+
+`php artisan migrate`
 
 `php artisan server --port=8001`
